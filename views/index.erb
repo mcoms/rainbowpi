@@ -1,0 +1,12 @@
+  <h1>Welcome to Rainbow Pi</h1>
+  <h2>Pick a colour...</h2>
+
+	<% if flash.has? :notice %>
+	<p><%= flash[:notice] %></p>
+	<% end %>
+
+  <ul>
+    <li><a href="<%= url '/display/ff0000' %>">Red</a></li>
+    <li><a href="<%= url '/display/00ff00' %>">Green</a></li>
+    <li><a href="<%= url '/display/0000ff' %>">Blue</a></li>
+  </ul>
