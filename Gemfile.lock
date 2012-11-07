@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     color (1.4.1)
+    json (1.7.5)
     rack (1.4.1)
     rack-flash3 (1.0.1)
       rack
@@ -19,5 +20,6 @@ PLATFORMS
 
 DEPENDENCIES
   color
+  json
   rack-flash3
   sinatra
